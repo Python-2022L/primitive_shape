@@ -15,6 +15,3 @@ class Polygon:
         """ 
         return (self.height+self.width)*2
         
-p = Polygon(12,5)
-print(p.getArea())
-print(p.getPerimeter())
