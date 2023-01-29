@@ -3,6 +3,6 @@ class Polygon:
         self.height = height
         self.width = width
     def getArea(self):
-        pass
+        return self.height*self.width
     def getPerimeter(self):
-        pass
+        return 2*(self.height+self.width)
