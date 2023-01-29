@@ -5,7 +5,7 @@ class Triangle(Polygon):
         self.uch = uch
         Polygon.__init__(self, height, width)
     def getArea(self):
-        x = (self.width+self.height+self.uch)
+        x = (self.width+self.height+self.uch)/2
         return sqrt(x*(x-self.width)*(x-self.height)*(x-self.uch))
     def getPerimeter(self):
         return self.width+self.height+self.uch
