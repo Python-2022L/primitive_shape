@@ -1,8 +1,8 @@
 from polygon import Polygon
 
 class Rectangle(Polygon):
-    def __init__(self, height, width) -> None:
-        super().__init__(height, width)
+    pass
+x = Rectangle(20, 10)
+print(x.getArea())
+print(x.getPerimeter())
 
-r = Rectangle(2,3)
-print(r.getArea())
